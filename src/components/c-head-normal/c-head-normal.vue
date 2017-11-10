@@ -1,7 +1,7 @@
 <template>
   <div class="header-gap">
     <header class="header-theme-1 header-default">
-                <a id="btn-back" href="javascript:void(0)" class="box-default box-0 btn-back box-left" data-isback="true">
+                <a id="btn-back" @click="onBack" href="javascript:void(0)" class="box-default box-0 btn-back box-left" data-isback="true">
                     <i class="header-icon icon-back"></i>
                 </a>
             <h1 class="title v-mid-after">Elegant fall staples</h1>
@@ -21,6 +21,11 @@ import Lib from "assets/js/Lib";
 export default {
   data() {
     return {};
+  },
+  methods:{
+    onBack:function(){
+      window.history.go(-1)
+    }
   }
 };
 </script>
