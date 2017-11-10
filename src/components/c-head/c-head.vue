@@ -9,7 +9,6 @@
                 <img class="logo" src="https://m-static-global.vip.com/image/logo-db2bab609b.svg" alt="">
             </a>
         </div>
-
             <a id="gotocart" href="javascript:void(0)" class="box-default box-cart">
             <span class="cart-wrap">
                 <i class="header-icon icon-bag"></i>
