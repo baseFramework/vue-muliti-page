@@ -1,8 +1,8 @@
 {
-  "name": "vue2-webpack2-cli-vux2-multe-page",
+  "name": "vue2-multi-pages",
   "version": "2.0.1",
-  "description": "blue fox",
-  "author": "蓝狐 <bluefox1688>",
+  "description": "vue2 多页面",
+  "author": "rahul.wu",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
