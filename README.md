@@ -60,25 +60,25 @@ webpack
      |---js/Lib.js    #暴露接口给组件调用	
  |---components 组件
      |---c-head 
-     		|---c-head.vue  head组件
+        |---c-head.vue  head组件
      |---c-products 
-     		|---c-products.vue  产品列表组件
+        |---c-products.vue  产品列表组件
 	  |---c-swiper 
-     		|---c-swiper.vue  轮播图组件
+        |---c-swiper.vue  轮播图组件
 |---views    #各个页面模块，模块名可以自定义哦！
      |---pages    #页面模块
-        	|---index		首页模块
-        			|---index.html
-        			|---index.vue
-        			|---index.js
-			|---list		列表页模块
-        			|---list.html
-        			|---list.vue
-        			|---list.js
-			|---detail   详情页页模块
-        			|---detail.html
-        			|---detail.vue
-        			|---detail.js
+        |---index	首页模块
+            |---index.html
+            |---index.vue
+            |---index.js
+        |---list  列表页模块
+            |---list.html
+            |---list.vue
+            |---list.js
+        |---detail   详情页页模块
+            |---detail.html
+            |---detail.vue
+            |---detail.js
 ......
      
 ```
@@ -86,7 +86,7 @@ webpack
 
 ## 总结
 
-此项目脚手架为vue2 多页面脚手架， 目前还在开发预演中，要使用到生产环境上请大家谨慎选择， 谢谢！
+此项目脚手架为[vue2多页面脚手架][3]， 目前还在开发预演中，要使用到生产环境上请大家谨慎选择 谢谢！
 
 
 ## 项目借鉴
@@ -95,6 +95,6 @@ webpack
 
 [1]:https://github.com/bluefox1688/vue-cli-multi-page "vue-cli-multi-page"
 [2]:https://us.vip.com "us.vip.com"
-
+[3]:https://github.com/baseFramework/vue-muliti-page "vue2多页面脚手架"
 
  
