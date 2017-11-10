@@ -26,12 +26,6 @@ npm run build
 
 ```
 
-## 访问效果：
-
-![首页效果](http://7xawfk.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-10%20%E4%B8%8B%E5%8D%884.04.37.png "首页效果")
-
-![Editor preferences pane](http://7xawfk.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-10%20%E4%B8%8B%E5%8D%884.04.47.png)
-
 ## 主要功能
 
  1. 全局统一使用的模块`Lib.js`库 -> 公用第三方库插件，公用js,css 以及静态资源可在Lib.js中调用
