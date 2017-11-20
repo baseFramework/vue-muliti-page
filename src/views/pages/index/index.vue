@@ -1,7 +1,9 @@
 <template>
-<div id="app">
+<div>
 	<c-head></c-head>
 	<c-swiper></c-swiper>
+  <c-tab></c-tab>
+
   <!-- <div class="app"
      style="height: 1200px;background-color: #ccc;width: 400px;margin: 0 auto;"
      v-infinite-scroll="loadMore"
@@ -31,6 +33,7 @@ import Lib from "assets/js/Lib";
 import { Cell, Group, Divider } from "vux";
 import CHead from "components/c-head/c-head.vue";
 import CSwiper from "components/c-swiper/c-swiper.vue";
+import cTab from "components/c-tab/c-tab.vue"
 
 export default {
   data() {
@@ -145,7 +148,8 @@ export default {
     Group,
     Divider,
     CHead,
-    CSwiper
+    CSwiper,
+    cTab
   },
   //实例初始化最之前，无法获取到data里的数据
   beforeCreate() {},
